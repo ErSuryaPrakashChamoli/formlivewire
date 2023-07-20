@@ -24,3 +24,5 @@ Route::get('index',function(){
 });
 
 Route::view('user','user');
+
+Route::view('register','register')->name('register');
